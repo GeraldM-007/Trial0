@@ -1,0 +1,159 @@
+    .Firstlist{
+      height: 40px;
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        background-color:green;
+        opacity: 1.0;
+    }
+    li{
+        float:left;
+    }
+
+    .Firstlist{color: white;
+    }
+
+    li a{
+        display:block;
+        color: whitesmoke;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+    }
+    a:link, a:visited {
+      background-color:green;
+      opacity: 1.0; /* It shows how transparent the color is  */
+      color: white;/*it shows the colour of the text */
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    li a:hover{
+        background-color: crimson;
+    }
+    body{ 
+        Opacity:1.0;
+    background: burlywood url("web24.jpg") no-repeat center scroll;
+    background-size: cover;
+    color: #000;
+    }
+        
+    h1{color:white; 
+        text-align: center;
+    border: 2px solid black}
+    
+  
+   h2{color: white ; /*set heading color to white */
+    /* border: 2px groove green;*/
+    }
+    .introduction{
+      background-color: none;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  caption{
+    caption-side: bottom;
+    padding-top: 10px;
+  }
+    th{
+      text-align: center;
+      font-size: large;
+    }
+
+    table,td {
+      border-collapse: collapse;
+      text-align: center;
+      float: none;
+      color: black;
+      }
+      table{
+        width: 50%;
+      }
+
+      tr{
+        border-bottom: 1px solid black;
+      }
+
+      tr:hover{
+        background-color: #ddd;
+      }
+      
+      .aside1 {
+        height: 700px;
+        width: 5%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: italic;
+        background-color: #000;
+      }
+      .container{
+        width: 90%;
+        height: 550px;
+        background-color:#fff;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 10px 10px;
+        position: static;
+        top: 85%;
+    }
+    .imagebox{
+      height: 400px;
+      width: 300px;
+      background: rgba(110, 108, 108, 0);
+      border-color: #000;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 10px;
+      padding: 10px 10px;
+      transform: (-50%,-50%);
+      font-style: oblique;  
+      position: absolute;
+  }
+  h3{
+    color: #000;
+    text-align: center;
+  }
+  .imagebox2{
+    height: 400px;
+    width: 300px;
+    background:#fff;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-style: oblique;  
+    position: absolute;
+    top: 0;
+    left: 120%;    
+}
+      /* To show what will happen to a link when houvered apon */
+      a:hover, a:active {
+        background-color: blueviolet;
+      }
+    
+     p{color: whitesmoke;}
+     
+    h4{
+    color:white;
+    font-size: large; }
+
+    h5{
+      color:white;
+    font-size: large; }
+
+    address{color: white;}
+
+.footer{
+  color: white;
+  background-color: rgb(12, 117, 12);
+}
+
+
+    
+  
